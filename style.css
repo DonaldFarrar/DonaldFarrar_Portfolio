@@ -1,0 +1,138 @@
+/* STYLE.CSS: */
+
+
+/* -------  General Styles ------- */
+
+body{
+  margin: 0;
+  font-family:Helvetica, Arial, sans-serif; ;
+}
+
+
+header {
+height: 165px ;
+background-color: firebrick;
+text-align: center;
+}
+
+
+.logo {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 50px;
+  color: beige;
+  text-align: center;
+  letter-spacing: -5;
+  padding: 1px;
+}
+header h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: beige;
+  text-align: center;
+}
+
+header h2 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: beige;
+  text-align: center;
+}
+
+ footer {
+background:beige ;
+color: firebrick;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 10px;
+height: ;
+padding: ;
+text-align: justify;
+ }
+ 
+ section {
+   padding: 0 25%;
+   margin: 100px 0;
+ }
+
+
+/*---Type---*/
+h1 { font-size: 30px; }
+h2 { font-size: 18px; }
+h3 { font-size: 14px; }
+h4 { font-size: 12px; }
+
+h1, h2, h3, h4 {
+  font-family: Helvetica, Arial, sans-serif;
+	color: black;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+p, li {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-bottom: 0;
+}
+
+
+ p{
+background:beige;
+color: firebrick;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 12px;
+height: ;
+padding: ;
+ }
+
+
+ul {
+  background:beige ;
+color: firebrick;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 12px;
+height: ;
+padding: ;
+text-align: left;
+}
+
+ol {
+   background:beige ;
+color: firebrick;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 12px;
+height: ;
+padding: ;
+text-align: left;
+}
+
+
+ footer p{
+   font-size: 12px;
+   text-align: right;
+ }
+
+ hr{
+   padding: 2px;
+   background-color: black;
+ }
+
+a{
+  font-weight: 600px;
+}
+
+a:link {color: #2F4858;}
+a:visited {color: #86BBD8;}
+a:hover {color: #9EE493;}
+a:active {color: #DAF7DC;}
+
+/*---Modifier Styles---*/
+
+.border-top {
+  padding-top: 5px;
+}
+
+/*---Elements---*/
+
+img {
+  border-radius: 12px;
+  text-align: center;
+}
